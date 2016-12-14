@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=VT323');
-
-html{
-    height: 100%;
+html {
     background-color: rgb(60, 60, 65);
+    height: 100%;
 }
+
 #title {
     text-align: center;
     font-size: 100px;
@@ -11,18 +11,19 @@ html{
     font-family: 'VT323', monospace;
     color: #fff;
 }
+
 .container {
     height: 550px;
     margin: 5% auto;
     position: relative;
     width: 680px;
     background-color: #333;
+    margin-bottom: 0;
 }
 
 .result {
     background-color: #575757;
     height: 20%;
-    
 }
 
 .calc-body #number-1,
@@ -31,7 +32,7 @@ html{
     height: 66px;
     padding: 50px;
     text-align: center;
-    font-size: 50px
+    font-size: 50px;
 }
 
 .calc-body {
@@ -54,13 +55,13 @@ html{
 #multiply:hover,
 #division:hover,
 #subtract:hover,
-#sum:hover{
-    border-radius: 100%;
-    transition: 0.5s;
-    
+#sum:hover {
+    border-radius: 20%;
+    transition: all 0.5s;
+    background-color: #9c9da0;
 }
 
-#show{
+#show {
     text-align: center;
     font-size: 95px;
     font-family: sans-serif;

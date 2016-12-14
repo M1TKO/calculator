@@ -60,7 +60,7 @@ function displayResult(val) {
     if (isNaN(val) == true && !(val == "You can't divide by 0!")) {
         document.getElementById("show").innerHTML = 'value not set';
     } else {
-        document.getElementById("show").innerHTML = val.toFixed(2);
+        document.getElementById("show").innerHTML = val;
 
     }
 
