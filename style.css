@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+html{
+    height: 100%;
+    background-color: rgb(60, 60, 65);
+}
+#title {
+    text-align: center;
+    font-size: 100px;
+    margin: 20px;
+    font-family: 'VT323', monospace;
+    color: #fff;
+}
+.container {
+    height: 550px;
+    margin: 5% auto;
+    position: relative;
+    width: 680px;
+    background-color: #333;
+}
+
+.result {
+    background-color: #575757;
+    height: 20%;
+    
+}
+
+.calc-body #number-1,
+#number-2 {
+    width: 200px;
+    height: 66px;
+    padding: 50px;
+    text-align: center;
+    font-size: 50px
+}
+
+.calc-body {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.calc-body #multiply,
+#division,
+#subtract,
+#sum {
+    margin: 4%;
+    margin-top: 50px;
+    font-size: 90px;
+    width: 100px;
+    height: 100px;
+}
+
+#multiply:hover,
+#division:hover,
+#subtract:hover,
+#sum:hover{
+    border-radius: 100%;
+    transition: 0.5s;
+    
+}
+
+#show{
+    text-align: center;
+    font-size: 95px;
+    font-family: sans-serif;
+    color: white;
+}
